@@ -11,7 +11,7 @@ MUSIC_FOLDER = (
 
 @app.route("/")
 def index():
-    files = Path(MUSIC_FOLDER).glob("**/*.flac")
+    files = Path(MUSIC_FOLDER).glob("*")
     # Convert to relative paths and sort for better display
     relative_files = [str(file.relative_to(MUSIC_FOLDER)) for file in files]
     relative_files.sort()

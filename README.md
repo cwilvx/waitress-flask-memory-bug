@@ -26,7 +26,7 @@ python main.py
 
 ### 2. Testing
 
-Open the task manager and search for the "python" process for this server.
+Open the task manager and search for the "python" process for this server. You can search for "main.py" to find it.
 
 1. Open http://localhost:1980 in your browser. You should see a list of music files diplayed. 
 2. Ctrl + Click on different files to open them on a new tab
